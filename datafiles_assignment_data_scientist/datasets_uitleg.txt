@@ -1,0 +1,37 @@
+**actual_values.json:**
+
+- Contract_id: persoonlijk identificatie nummer van huishouden
+- Timestamp: kwartier tijden in local timezone
+- Pv_actual_kwh: gerealiseerde opgewekte met zonnepanelen in kWh
+- P1_actual_kwh: gerealiseerde kWh op slimme meter
+- Pv_forecast_kwh: vooraf verwachte opwek met zonnepanelen in kWh
+
+**forcast_values.json:**
+
+- Contract_id: persoonlijk identificatie nummer van huishouden
+- Timestamp: kwartier tijden in local timezone
+- Pv_forecast_kwh: vooraf verwachte opwek met zonnepanelen in kWh
+
+**contracten_database_table.csv:**
+
+- Contract_id: persoonlijk identificatie nummer van huishouden
+- Start_date: eerste dag van het contract van de klant
+- End_date: laatste dag van het contract van de klant
+
+**weahter_actual.json en weather_forecast.json:**
+
+- Location_id: locatie van weerstation
+- Ghi: Global Horizontal Irradiation
+- Dni: Direct Normal Irradiation
+- Dhi: Diffuse Horizontal Irradiation
+- Ebh: Direct (Beam) Horizontal Irradiance
+- Zenith: The angle between a line perpendicular to the earth's surface and the sun (90 deg = sunrise and sunset; 0 deg = sun directly overhead)
+- Azimuth: The angle between a line pointing due north to the sun's current position in the sky. Negative to the East. Positive to the West. 0 at due North
+- Cloud_opacity: The measurement of how opaque the clouds are to solar radiation in the given location.
+- Air_temp: temperatuur in graden celsius
+- Timestamp: kwartier tijden in local timezone
+
+**price_epex.json:**
+
+- Price_epex: marktprijs waarvoor wij inkopen en verkopen
+- Timestamp: kwartier tijden in local timezone
